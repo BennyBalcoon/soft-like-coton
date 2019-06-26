@@ -15,6 +15,7 @@ h1 {
     color: #3B3E40;
     font-size: 3.5em;
     font-weight: bold;
+    text-shadow: 1px 1px 1px black;
 }
 
 p {
@@ -63,14 +64,26 @@ a {
 
 footer {
     width: 100%;
-    height: 100px;
+    height: 150px;
     background-color: #3B3E40;
 }
 
 #copyright {
     float: right;
-    color: white;
+    color: whitesmoke;
     margin-right: 20px;
+}
+
+#settings {
+    text-align: left;
+    color: whitesmoke;
+    clear: both;
+    float: right;
+    padding-right: 30px;
+}
+
+span {
+    font-size: 0.8em;
 }
 
 @media only screen and (max-width:800px) {
